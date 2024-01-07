@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio</title>
+</head>
+<script>
+    let personaAna = {
+        nombre: "Ana Gonzalez",
+        edad: 30,
+        sexo: "F",
+        estado_civil: "Casada",
+        aPeliculas: ["Titanic", "Toy Story", "Dracula"],
+        comer: function (comida) {
+            console.log("Está comiendo " + comida);
+        },
+        cumplirAnios: function () {
+            console.log("He cumplido años");
+            personaAna.edad++;
+        }
+    };
+    console.log(personaAna);
+    personaAna.comer("Fideos");
+    personaAna.cumplirAnios();
+    console.log(personaAna);
+</script>
+<body>
+    Este es un programa js.
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo</title>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+</head>
+<script>
+
+    window.onload = function () { // Carga la página y luego ejecuta:
+        
+        $("li").each(function (index) {
+            alert($(this).text());
+        });
+
+    }
+
+</script>
+<body>
+<ul>
+    <li>Buenos Aires</li>
+    <li>Cordoba</li>
+    <li>Rosario</li>
+</ul>
+<ul>
+    <li>Manzana</li>
+    <li>Naranja</li>
+    <li>Banana</li>
+</ul>
+
+
+</body>
+
+</html>
